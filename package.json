@@ -1,0 +1,19 @@
+{
+  "name": "intro-discord-bot",
+  "version": "1.0.0",
+  "description": "first discord bot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "start":"node src/index.js"
+  },
+  "author": "nvkex",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  }
+}
